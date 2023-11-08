@@ -9,11 +9,19 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    @IBOutlet weak var viewLabel: UIView!
+    @IBOutlet weak var nameAnimationLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    
+    @IBAction func actionAnimationButton(_ sender: UIButton) {
+    }
+    
+    
+    
 }
 
