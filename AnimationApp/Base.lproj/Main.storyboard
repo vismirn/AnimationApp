@@ -27,7 +27,7 @@
                                     <action selector="actionAnimationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YOu-i5-gHh"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lvx-tK-5w3">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lvx-tK-5w3" customClass="SpringView" customModule="SpringAnimation">
                                 <rect key="frame" x="80" y="62" width="215" height="128"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <constraints>
@@ -47,6 +47,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lvx-tK-5w3" secondAttribute="trailing" constant="80" id="0Do-Lo-dP5"/>
                             <constraint firstItem="lvx-tK-5w3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="76Y-hp-QgC"/>
                             <constraint firstItem="boF-KG-pKU" firstAttribute="top" secondItem="lvx-tK-5w3" secondAttribute="bottom" constant="138" id="9jU-n2-HoX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="boF-KG-pKU" secondAttribute="trailing" constant="62" id="Ct9-UN-DQZ"/>
                             <constraint firstItem="lvx-tK-5w3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dzy-rj-NJG"/>
                             <constraint firstItem="sIv-BT-fIl" firstAttribute="width" secondItem="lvx-tK-5w3" secondAttribute="width" id="Wdk-tC-Tt8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sIv-BT-fIl" secondAttribute="bottom" constant="80" id="YYL-Jt-KbC"/>
@@ -57,6 +58,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="buttonOutlet" destination="sIv-BT-fIl" id="PXj-yt-s1j"/>
                         <outlet property="nameAnimationLabel" destination="boF-KG-pKU" id="E0R-N9-bn7"/>
                         <outlet property="viewLabel" destination="lvx-tK-5w3" id="Has-0o-Tw3"/>
                     </connections>

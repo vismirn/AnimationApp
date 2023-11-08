@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DB548A922AFAA76400D538F3 /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = DB548A912AFAA76400D538F3 /* SpringAnimation */; };
+		DB548A942AFBD95600D538F3 /* AnimationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB548A932AFBD95600D538F3 /* AnimationList.swift */; };
+		DB548A962AFBD9DA00D538F3 /* Extention + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB548A952AFBD9DA00D538F3 /* Extention + UIButton.swift */; };
 		DBDFB3372AFA9E0600F975FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFB3362AFA9E0600F975FB /* AppDelegate.swift */; };
 		DBDFB3392AFA9E0600F975FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFB3382AFA9E0600F975FB /* SceneDelegate.swift */; };
 		DBDFB33B2AFA9E0600F975FB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFB33A2AFA9E0600F975FB /* MainViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB548A932AFBD95600D538F3 /* AnimationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationList.swift; sourceTree = "<group>"; };
+		DB548A952AFBD9DA00D538F3 /* Extention + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention + UIButton.swift"; sourceTree = "<group>"; };
 		DBDFB3332AFA9E0600F975FB /* AnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDFB3362AFA9E0600F975FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBDFB3382AFA9E0600F975FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB548A972AFBDA0000D538F3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DB548A952AFBD9DA00D538F3 /* Extention + UIButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		DBDFB32A2AFA9E0600F975FB = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +73,9 @@
 				DBDFB3362AFA9E0600F975FB /* AppDelegate.swift */,
 				DBDFB3382AFA9E0600F975FB /* SceneDelegate.swift */,
 				DBDFB33A2AFA9E0600F975FB /* MainViewController.swift */,
+				DB548A932AFBD95600D538F3 /* AnimationList.swift */,
 				DBDFB33C2AFA9E0600F975FB /* Main.storyboard */,
+				DB548A972AFBDA0000D538F3 /* Extensions */,
 				DBDFB33F2AFA9E0900F975FB /* Assets.xcassets */,
 				DBDFB3412AFA9E0900F975FB /* LaunchScreen.storyboard */,
 				DBDFB3442AFA9E0900F975FB /* Info.plist */,
@@ -148,6 +162,8 @@
 			files = (
 				DBDFB33B2AFA9E0600F975FB /* MainViewController.swift in Sources */,
 				DBDFB3372AFA9E0600F975FB /* AppDelegate.swift in Sources */,
+				DB548A942AFBD95600D538F3 /* AnimationList.swift in Sources */,
+				DB548A962AFBD9DA00D538F3 /* Extention + UIButton.swift in Sources */,
 				DBDFB3392AFA9E0600F975FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
